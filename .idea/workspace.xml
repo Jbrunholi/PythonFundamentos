@@ -36,8 +36,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.WhileLoops">
-    <configuration name="ElifAndNested" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.AcessingStrings">
+    <configuration name="AcessingStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonFundamentos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StringsInDepth" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StringsInDepth/AcessingStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BreakStatement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonFundamentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,7 +72,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlowLoops/ElifAndNested.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlowLoops/BreakStatement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ForLoopExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ContinueStatement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonFundamentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlowLoops/ForLoopExample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlowLoops/ContinueStatement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IfElseExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PassStatement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonFundamentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,29 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlowLoops/IfElseExample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RangeFunctionDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonFundamentos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RangeFunctionDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlowLoops/PassStatement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AcessingStrings" />
+        <item itemvalue="Python.PassStatement" />
+        <item itemvalue="Python.ContinueStatement" />
+        <item itemvalue="Python.BreakStatement" />
         <item itemvalue="Python.WhileLoops" />
-        <item itemvalue="Python.ForLoopExample" />
-        <item itemvalue="Python.ElifAndNested" />
-        <item itemvalue="Python.IfElseExample" />
-        <item itemvalue="Python.RangeFunctionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637111069181</updated>
       <workItem from="1637111070837" duration="409000" />
-      <workItem from="1637152775379" duration="8644000" />
+      <workItem from="1637152775379" duration="12658000" />
     </task>
     <servers />
   </component>
@@ -190,10 +190,14 @@
     <SUITE FILE_PATH="coverage/PythonFundamentos$RangeFunctionDemo.coverage" NAME="RangeFunctionDemo Coverage Results" MODIFIED="1637164347183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonFundamentos$ElifAndNested.coverage" NAME="ElifAndNested Coverage Results" MODIFIED="1637175168074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowLoops" />
     <SUITE FILE_PATH="coverage/PythonFundamentos$LogicalDemo.coverage" NAME="LogicalDemo Coverage Results" MODIFIED="1637160790590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonFundamentos$AcessingStrings.coverage" NAME="AcessingStrings Coverage Results" MODIFIED="1637188178042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringsInDepth" />
     <SUITE FILE_PATH="coverage/PythonFundamentos$WhileLoops.coverage" NAME="WhileLoops Coverage Results" MODIFIED="1637179852820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowLoops" />
+    <SUITE FILE_PATH="coverage/PythonFundamentos$BreakStatement.coverage" NAME="BreakStatement Coverage Results" MODIFIED="1637185765508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowLoops" />
     <SUITE FILE_PATH="coverage/PythonFundamentos$MembershipOperatorDemo.coverage" NAME="MembershipOperatorDemo Coverage Results" MODIFIED="1637164213421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonFundamentos$PassStatement.coverage" NAME="PassStatement Coverage Results" MODIFIED="1637187677579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowLoops" />
     <SUITE FILE_PATH="coverage/PythonFundamentos$ImmutabilityDemo.coverage" NAME="ImmutabilityDemo Coverage Results" MODIFIED="1637111220958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonFundamentos$IfElseExample.coverage" NAME="IfElseExample Coverage Results" MODIFIED="1637174318723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowLoops" />
     <SUITE FILE_PATH="coverage/PythonFundamentos$ForLoopExample.coverage" NAME="ForLoopExample Coverage Results" MODIFIED="1637179010253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowLoops" />
+    <SUITE FILE_PATH="coverage/PythonFundamentos$ContinueStatement.coverage" NAME="ContinueStatement Coverage Results" MODIFIED="1637186075574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowLoops" />
   </component>
 </project>
